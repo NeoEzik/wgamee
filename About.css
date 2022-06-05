@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image: url(https://cdn.create.vista.com/api/media/medium/461172218/stock-photo-abstract-green-gradient-polygonal-background?token=);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    /*--Фон--*/
+}
+
+h2 {
+    font-family: Helvetica Bold;
+    /*--Хайповый шрифт--*/
+    text-decoration: none;
+    /*--Без подчёркивания--*/
+    color: azure;
+    /*--Цвет текста--*/
+    font-size: xx-large;
+    /*--Размер текста--*/
+}
+
+p {
+    font-family: Helvetica Bold;
+    /*--Хайповый шрифт--*/
+    text-decoration: none;
+    /*--Без подчёркивания--*/
+    color: azure;
+    /*--Цвет текста--*/
+    font-size: medium;
+    /*--Размер текста--*/
+}
+
+.button {
+    background-color: #323232;
+    /* Green */
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    float: left;
+    margin-top: 450px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-image: url(https://artforlife.ru/wp-content/uploads/2019/02/besplatnye-gradienty-i-primery-ih-realizatsii-v-dizajne.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    /*--Бэкграунд--*/
+
+}
+
+
+/*--Меню--*/
+
+
+/*--Список--*/
+
+#navbar ul {
+    display: none;
+    /*--Тип отображения элемента--*/
+    background-color: #f90;
+    /*--Цвет фона--*/
+    position: absolute;
+    /*--Позиционирование в док.--*/
+    top: 100%;
+    /*--Вертикальное положение--*/
+}
+
+#navbar li:hover ul {
+    display: block;
+    /*--Тип отображения элемента--*/
+    /*--Блоками--*/
+}
+
+#navbar,
+#navbar ul {
+    margin: 0;
+    /*--Внешний отступ на всех четырёх сторонах элемента--*/
+    padding: 0;
+    /*--Внутренний отступ на всех четырёх сторонах элемента--*/
+    list-style-type: none;
+    /*--Стиль маркера списка--*/
+}
+
+#navbar {
+    height: 40px;
+    /*--Высота элемента--*/
+    background-color: #666;
+    /*--Фон элемента--*/
+    padding-left: 25px;
+    /*--Внутренний отступ от левой стороны--*/
+    min-width: 470px;
+    /*--Минимальная ширина--*/
+}
+
+#navbar li {
+    float: left;
+    /*--Расположение элемента на странице--*/
+    position: relative;
+    /*--Позиционирование--*/
+    height: 100%;
+    /*--Высота элемента--*/
+}
+
+
+/*--Ссылка--*/
+
+#navbar li a {
+    display: block;
+    /*--Тип отображения элемента Блоками--*/
+    padding: 6px;
+    /*--Внутренний отступ на всех четырёх сторонах элемента--*/
+    width: 100px;
+    /*--Высота элемента--*/
+    color: #fff;
+    /*--Цвет--*/
+    text-decoration: none;
+    /*--Декорация ссылки--*/
+    text-align: center;
+    /*--Отцентровка текста--*/
+}
+
+#navbar ul li {
+    float: none;
+    /*--Расположение элемента на странице--*/
+}
+
+#navbar li:hover {
+    background-color: #f90;
+    /*--Фон элемента--*/
+}
+
+#navbar ul li:hover {
+    background-color: #666;
+    /*--Фон элемента--*/
+}
+
+body {
+    text-align: center;
+    /*--Отцентровка текста--*/
+}
+
+
+/*--Название сайта--*/
+
+h3 {
+    /* margin: 20px; */
+    font-family: "Paytone One";
+    /*--Шрифт текста--*/
+    color: #202020;
+    /*--Цвет--*/
+    text-transform: uppercase;
+    /*--Позиционирование букв в верхнем и нижнем регистре--*/
+    letter-spacing: -2px;
+    /*--Горизонтальный интервал между текстовыми символами--*/
+}
+
+h3 div {
+    font-size: 80px;
+    /*--Размер текста--*/
+    line-height: 80px;
+    /*--Высота строки--*/
+    color: #f7f4f1;
+    /*--Цвет--*/
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+    /*--Тень к тексту--*/
+    letter-spacing: -4px;
+    /*--Горизонтальный интервал между текстовыми символами--*/
+    position: absolute;
+    /*--Позиционирование--*/
+    margin-left: auto;
+    /*--Внешний отступ от левой стороны--*/
+    margin-right: auto;
+    /*--Внешний отступ от правой стороны--*/
+    width: 100%;
+    /*--Ширина--*/
+    padding-top: 300px;
+    /*--Внутренний отступ от верха--*/
+    z-index: -1;
+}

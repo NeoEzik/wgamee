@@ -1,0 +1,112 @@
+               body {
+                   margin: 0;
+                   background-image: url(https://hdfon.ru/wp-content/uploads/hdfon.ru-400055320.jpg);
+                   /*--Задний фон Инди-игр--*/
+                   background-position: center center;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   height: 100%;
+                   position: relative;
+                   font-family: Helvetica Bold;
+                   /*--Хайповый шрифт--*/
+                   text-decoration: none;
+                   /*--Без подчёркивания--*/
+                   color: azure;
+                   /*--Цвет текста--*/
+                   background-attachment: fixed;
+               }
+               
+               .div1 {
+                /*--Главный блок--*/
+                width: 880px;
+                /*--Ширина--*/
+                height: 80px;
+                /*--Высота--*/
+                border: 3px white solid;
+                /*--Границы--*/
+                border-radius: 10px;
+                /*--Радиус--*/
+                background: #323232;
+                /*--Фон--*/
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+                /*--Отцентровка--*/
+            }
+            
+            .zag {
+                /*--Название игры--*/
+                font-size: 25px;
+                /*--Размер--*/
+                margin-left: 30px;
+                margin-right: 30px;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                /*--Положение--*/
+            }
+            
+            .text {
+                /*--Описание--*/
+                font-size: 14px;
+                /*--Размер--*/
+            }
+            
+            h2 {
+                text-align: center;
+                /*--Положение загаловка--*/
+            }
+            /*--Общий Блок--*/
+            .and {
+                border: 0px solid white;
+                width: 1100px;
+                height: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+                position: relative;
+            }
+            /*--Увеличение картинок--*/
+            .img {
+                transition: 1s;
+            }
+            
+            .img:hover {
+                transform: scale(1.2);
+            }
+            /*--Оформление картинок--*/
+            img {
+                border: 3px solid white;
+                border-radius: 10px;
+                position: absolute;
+                width: 80px;
+                height: 80px;
+            }
+            /*--Ссылки оформление--*/
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            /*--Кнопка оформление--*/
+            .button {
+                background-color: #323232;
+                border: 2px solid white;
+                border-radius: 5px;
+                color: white;
+                padding: 7.5px 16px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                /*--Вид курсора при наведении--*/
+                -webkit-transition-duration: 0.4s;
+                /*--Safari--*/
+                transition-duration: 0.4s;
+                /*--Продолжительность перехода--*/
+                margin-top: 260px;
+                position: absolute;
+            }
+            /*--Тень при наведении--*/
+            .button:hover {
+                box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            }
